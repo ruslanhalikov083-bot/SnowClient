@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "snowclient",
+  "version": "${version}",
+  "name": "SnowClient",
+  "description": "A clean visual client-side HUD and player highlight mod.",
+  "authors": ["SnowClient"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.snowclient.SnowClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
